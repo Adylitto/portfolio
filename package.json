@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "homepage": "https://Adyl.dev",
   "description": "Portfolio site for Adyl ITT0",
-  "repository": "https://github.com/HamishMW/portfolio.git",
+  "repository": "https://github.com/Adylitto/portfolio.git",
   "author": "Adyl ITT0 <hello@Adyl.dev>",
   "devDependencies": {
     "@mapbox/rehype-prism": "^0.8.0",
@@ -72,6 +72,6 @@
   },
   "engines": {
     "npm": ">=8.6.0",
-    "node": ">=18.0.0"
+    "node": ">=16.x"
   }
 }
