@@ -4,8 +4,8 @@ import { addons } from '@storybook/addons';
 addons.setConfig({
   theme: {
     ...themes.dark,
-    brandImage: 'https://hamishw.com/icon.svg',
+    brandImage: 'https://Adyl.dev/icon.svg',
     brandTitle: 'Adyl ITT0 Components',
-    brandUrl: 'https://hamishw.com',
+    brandUrl: 'https://Adyl.dev',
   },
 });
