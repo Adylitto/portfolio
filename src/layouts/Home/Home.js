@@ -18,7 +18,7 @@ import { ProjectSummary } from 'layouts/Home/ProjectSummary';
 import { useEffect, useRef, useState } from 'react';
 import styles from './Home.module.css';
 
-const disciplines = ['Developer', 'Prototyper', 'Animator', 'Illustrator', 'Modder'];
+const disciplines = ['Web3-5', 'Prototyper', 'Market', 'Business'];
 
 export const Home = () => {
   const [visibleSections, setVisibleSections] = useState([]);
@@ -68,7 +68,7 @@ export const Home = () => {
   return (
     <div className={styles.home}>
       <Meta
-        title="Designer + Web3-5 Developer"
+        title="Developer + Web3-5"
         description="Design portfolio of Adyl ITT0 — a product designer working on web3-5 & mobile
           apps with a focus on motion, experience design, and accessibility."
       />
@@ -83,8 +83,8 @@ export const Home = () => {
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={1}
-        title="Designing the future of education"
-        description="Designing a platform to help educators build better online courseware"
+        title="Designing the future of decentralisation"
+        description="Enpowering decentralisation"
         buttonText="View project"
         buttonLink="/projects/smart-sparrow"
         model={{
