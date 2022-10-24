@@ -25,11 +25,11 @@ const ProfileText = ({ visible, titleId }) => (
       <Link href="https://www.adyl.dev">adyl</Link>. My projects include UX design, UI
       animations, icon illustration, web3 integration. Being comfortable with code allows me to rapidly
       prototype and validate experiences. If you’re interested in the tools and software I
-      use check out my <Link href="/uses">uses page</Link>.
+      use check out my <Link href="#">uses page</Link>.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
       In my spare time I like to practice Yoga, Meditation, play video games, and{' '}
-      <Link href="/projects/volkihar-knight">Mine Crypto</Link>. I’m always down for hearing
+      <Link href="#">Mine Crypto</Link>. I’m always down for hearing
       about new projects, so feel free to drop me a line.
     </Text>
   </Fragment>
