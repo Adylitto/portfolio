@@ -70,13 +70,13 @@ import styles from './SmartSparrow.module.css';
 const Earth = dynamic(() => import('./Earth').then(mod => mod.Earth));
 const EarthSection = dynamic(() => import('./Earth').then(mod => mod.EarthSection));
 
-const title = 'Designing the future of education';
+const title = 'Swap exchange';
 const description =
-  'I worked as the design lead on a major iteration of Smart Sparrow’s product. We took the platform in a bold new direction, focusing on becoming the best tool for learning designers.';
+  'Working on the Uniswap open source code for decentralised exchange and defi protocols.';
 const roles = [
-  'Art Direction',
+  'Open source code customisation',
   'UX and UI Design',
-  'Front End Development',
+  'Back End Development',
   'Motion Design',
 ];
 
@@ -104,7 +104,7 @@ export const SmartSparrow = () => {
         <ProjectHeader
           title={title}
           description={description}
-          url="https://www.smartsparrow.com/"
+          url="https://uniswap-frontend-iota.vercel.app"
           roles={roles}
         />
         <ProjectSection padding="top">
