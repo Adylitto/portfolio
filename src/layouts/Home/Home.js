@@ -18,7 +18,7 @@ import { ProjectSummary } from 'layouts/Home/ProjectSummary';
 import { useEffect, useRef, useState } from 'react';
 import styles from './Home.module.css';
 
-const disciplines = ['Web3-5', 'Prototyper', 'Market', 'Business'];
+const disciplines = ['Business', 'Web2-3', 'Prototyper', 'Market'];
 
 export const Home = () => {
   const [visibleSections, setVisibleSections] = useState([]);
@@ -69,7 +69,7 @@ export const Home = () => {
     <div className={styles.home}>
       <Meta
         title="Developer + Web3-5"
-        description="My portfolio Adyl ITT0 — a product designer working on web3-5 & mobile
+        description="My portfolio Adyl ITT0 — a product designer working on web2 web3 and mobile
           apps with a focus on motion, experience and interactive design, and accessibility."
       />
       <Intro

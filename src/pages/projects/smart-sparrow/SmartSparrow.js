@@ -70,7 +70,7 @@ import styles from './SmartSparrow.module.css';
 const Earth = dynamic(() => import('./Earth').then(mod => mod.Earth));
 const EarthSection = dynamic(() => import('./Earth').then(mod => mod.EarthSection));
 
-const title = 'Swap exchange';
+const title = 'Web3 dApps';
 const description =
   'Working on the Uniswap open source code for decentralised exchange and defi protocols.';
 const roles = [
